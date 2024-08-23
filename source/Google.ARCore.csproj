@@ -18,6 +18,7 @@
     <PackageId>Vapolia.Google.ARCore</PackageId>
     <PackageVersion>$(Version)$(VersionSuffix)</PackageVersion>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
 
     <Title>Google AR Core bindings</Title>
     <Summary>Bindings of Google's AR Core SDK for .NET 8+</Summary>
@@ -41,6 +42,7 @@
 
   <ItemGroup>
     <None Include="..\\icon.png" Pack="true" PackagePath="" />
+    <None Include="..\\readme.md" Pack="true" PackagePath="" />
     <AndroidLibrary Include="..\externals\arcore.aar" />
   </ItemGroup>
 
