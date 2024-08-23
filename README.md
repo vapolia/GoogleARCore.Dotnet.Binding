@@ -27,7 +27,7 @@ First download the external dependencies once from a command line:
 dotnet cake --target=externals
 ```
 
-The either use an IDE directly, or from the command line:
+Then either use an IDE directly, or from the command line:
 
 ```powershell
 dotnet cake
