@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsTrimmable>true</IsTrimmable>
+    <SupportedOSPlatformVersion>27</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <!--  nuget configurable properties -->
+  <PropertyGroup>
+    <Version>0.0.0-pre1</Version>
+    <VersionSuffix></VersionSuffix>
+    <DefineConstants>$(DefineConstants);</DefineConstants>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <PackageId>Vapolia.Google.ARCore</PackageId>
+    <PackageVersion>$(Version)$(VersionSuffix)</PackageVersion>
+    <PackageIcon>icon.png</PackageIcon>
+
+    <Title>Google AR Core bindings</Title>
+    <Summary>Bindings of Google's AR Core SDK for .NET 8+</Summary>
+    <PackageTags>Augmented Reality AR Depth 3D</PackageTags>
+    <Description>.Net bindings for Google's AR Core SDK</Description>
+    <PackageReleaseNotes>
+      1.45.0: Initial release (Google AR Core 1.45)
+    </PackageReleaseNotes>
+    
+    <Product>ARCore Bindings</Product>
+    <Company>Vapolia</Company>
+    <Authors>Benjamin Mayrargue</Authors>
+    <Owners>https://vapolia.eu</Owners>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Copyright>© Vapolia 2024</Copyright>
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+    <PackageProjectUrl>https://github.com/vapolia/GoogleARCore.Dotnet.Binding</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\\icon.png" Pack="true" PackagePath="" />
+    <AndroidLibrary Include="..\externals\arcore.aar" />
+  </ItemGroup>
+
+</Project>
