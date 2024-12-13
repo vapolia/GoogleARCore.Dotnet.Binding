@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
+    <TargetFramework>net9.0-android</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <IsTrimmable>true</IsTrimmable>
@@ -25,6 +25,7 @@
     <PackageTags>Augmented Reality AR Depth 3D</PackageTags>
     <Description>.Net bindings for Google's AR Core SDK</Description>
     <PackageReleaseNotes>
+      1.47.0: Google AR Core 1.47
       1.45.0: Initial release (Google AR Core 1.45)
     </PackageReleaseNotes>
     
