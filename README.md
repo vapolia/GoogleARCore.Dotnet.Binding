@@ -2,9 +2,8 @@
 
 Augmented Reality is more than a live overlay over a camera preview. It's a real time 3D depth analysis of a scene.
 
-[Google's ARCore](https://developers.google.com/ar/) is a closed source SDK from Google which manages and processes the cameras, outputs 3D points, and can anchor your 3D objects as overlays.
+[Google's ARCore](https://developers.google.com/ar/) is a closed source SDK from Google which manages and processes the cameras, outputs 3D points, and can anchor your 3D objects as overlays. The bound Google SDK is [available there](https://github.com/google-ar/arcore-android-sdk).
 
-This nuget is a drop-in replacement for the legacy [Xamarin component](https://github.com/xamarin/XamarinComponents/blob/main/Android/ARCore/)
 
 ## Using
 
