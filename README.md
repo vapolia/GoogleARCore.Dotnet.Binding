@@ -8,8 +8,8 @@ Augmented Reality is more than a live overlay over a camera preview. It's a real
 ## Using
 
 Reference the Nuget and use it:  
-[![NuGet](https://img.shields.io/nuget/v/Vapolia.Google.ARCore.svg?style=for-the-badge)](https://www.nuget.org/packages/Vapolia.Google.ARCore/)  
-[![NuGet](https://img.shields.io/nuget/vpre/Vapolia.Google.ARCore.svg?style=for-the-badge)](https://www.nuget.org/packages/Vapolia.Google.ARCore/)  
+[![NuGet Release](https://img.shields.io/nuget/v/Vapolia.Google.ARCore.svg?style=for-the-badge)](https://www.nuget.org/packages/Vapolia.Google.ARCore/)  
+[![NuGet Prerelease](https://img.shields.io/nuget/vpre/Vapolia.Google.ARCore.svg?style=for-the-badge)](https://www.nuget.org/packages/Vapolia.Google.ARCore/)  
 ![Nuget](https://img.shields.io/nuget/dt/Vapolia.Google.ARCore)
 
 
