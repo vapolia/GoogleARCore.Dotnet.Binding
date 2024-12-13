@@ -9,7 +9,6 @@ Augmented Reality is more than a live overlay over a camera preview. It's a real
 
 Reference the Nuget and use it:  
 [![NuGet Release](https://img.shields.io/nuget/v/Vapolia.Google.ARCore.svg?style=for-the-badge)](https://www.nuget.org/packages/Vapolia.Google.ARCore/)  
-[![NuGet Prerelease](https://img.shields.io/nuget/vpre/Vapolia.Google.ARCore.svg?style=for-the-badge)](https://www.nuget.org/packages/Vapolia.Google.ARCore/)  
 ![Nuget](https://img.shields.io/nuget/dt/Vapolia.Google.ARCore)
 
 
@@ -17,7 +16,7 @@ Reference the Nuget and use it:
 
 ### Prerequisites
 
-Install [.NET 8](https://dotnet.microsoft.com/download) and the lightweight [Cake .NET Tool](http://cakebuild.net):
+Install [.NET 9](https://dotnet.microsoft.com/download) and the lightweight [Cake .NET Tool](http://cakebuild.net):
 
 ```sh
 dotnet tool install -g cake.tool
@@ -31,7 +30,7 @@ First download the external dependencies once from a command line:
 dotnet cake --target=externals
 ```
 
-Then either use an IDE directly, or from the command line:
+Then either use an IDE, or from the command line:
 
 ```powershell
 dotnet cake
