@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0-android</TargetFramework>
+    <TargetFrameworks>net8.0-android;net9.0-android</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <IsTrimmable>true</IsTrimmable>
@@ -25,6 +25,7 @@
     <PackageTags>Augmented Reality AR Depth 3D</PackageTags>
     <Description>.Net bindings for Google's AR Core SDK</Description>
     <PackageReleaseNotes>
+      1.47.1: net8 compatibility
       1.47.0: Google AR Core 1.47
       1.45.0: Initial release (Google AR Core 1.45)
     </PackageReleaseNotes>
@@ -34,7 +35,7 @@
     <Authors>Benjamin Mayrargue</Authors>
     <Owners>https://vapolia.eu</Owners>
     <NeutralLanguage>en</NeutralLanguage>
-    <Copyright>© Vapolia 2024</Copyright>
+    <Copyright>© Vapolia 2025</Copyright>
     <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
     <PackageProjectUrl>https://github.com/vapolia/GoogleARCore.Dotnet.Binding</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
